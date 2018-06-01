@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="10dp">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="380dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_border_dialog_setting"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ico_setting" />
+
+                <com.product.ygd.task1.utils.CustomTextView
+                    android:id="@+id/tv_setting_dialog_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="10"
+                    android:text="@string/setting_string_setting"
+                    android:textAllCaps="true"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_border_dialog_setting_option"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_dialog_language"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_setting_dialog_language_logo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/flag_en" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingEnd="10dp">
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_language_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_language"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp" />
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_language_state"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_language_en"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_dialog_bg_sound"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_setting_dialog_bg_sound_logo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ico_sound_on" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingEnd="10dp">
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_bg_sound_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_bg_sound"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_bg_sound_state"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_bg_sound_on"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_dialog_sfx_sound"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_setting_dialog_sfx_sound_logo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ico_sound_on" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingEnd="10dp">
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_sfx_sound_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_sfx_sound"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_sfx_sound_state"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_sfx_sound_on"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_dialog_feedback"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/iv_setting_dialog_feedback_logo"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ico_mail" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingEnd="10dp">
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_feedback_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_feedback"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp" />
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_feedback_state"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_feedback_send"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_dialog_quit_game"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ico_quit_game" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <com.product.ygd.task1.utils.CustomTextView
+                                android:id="@+id/tv_setting_dialog_quit_game_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:shadowColor="#000000"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="10"
+                                android:text="@string/setting_string_quit_game"
+                                android:textAllCaps="true"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_setting_dialog_button_exit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ico_cancel" />
+    </RelativeLayout>
+
+</LinearLayout>
