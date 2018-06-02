@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="top_screen_string_top">TOP</string>
+    <string name="top_screen_string_back">Back</string>
+    <string name="top_screen_string_global">Global</string>
+    <string name="top_screen_string_friend">Friend</string>
+    <string name="top_screen_string_reward">Reward</string>
+    <string name="store_screen_string_title">STORE</string>
+    <string name="store_screen_string_back">Back</string>
+    <string name="store_screen_string_store">Store</string>
+    <string name="store_screen_string_items">Items</string>
+    <string name="store_screen_string_free">Free</string>
+    <string name="notify_string_notify">notify</string>
+    <string name="notify_string_content">This is the content of notification</string>
+    <string name="notify_string_no">no</string>
+    <string name="notify_dialog_string_yes">yes</string>
+    <string name="setting_string_setting">setting</string>
+    <string name="setting_string_language">language</string>
+    <string name="setting_string_language_en">en</string>
+    <string name="setting_string_bg_sound">bg sound</string>
+    <string name="setting_string_bg_sound_on">on</string>
+    <string name="setting_string_sfx_sound">sfx sound</string>
+    <string name="setting_string_sfx_sound_on">on</string>
+    <string name="setting_string_feedback">feedback</string>
+    <string name="setting_string_feedback_send">send</string>
+    <string name="setting_string_quit_game">quit game</string>
+    <string name="item_store_pack_string_buy">buy</string>
+    <string name="item_store_pack_string_coins">coins</string>
+
+</resources>

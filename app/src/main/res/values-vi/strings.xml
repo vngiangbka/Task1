@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="top_screen_string_top">xếp hạng</string>
+    <string name="top_screen_string_back">trở lại</string>
+    <string name="top_screen_string_global">thế giới</string>
+    <string name="top_screen_string_friend">bạn bè</string>
+    <string name="top_screen_string_reward">thưởng</string>
+    <string name="store_screen_string_title">cửa hàng</string>
+    <string name="store_screen_string_back">trở lại</string>
+    <string name="store_screen_string_store">cửa hàng</string>
+    <string name="store_screen_string_items">vật phẩm</string>
+    <string name="store_screen_string_free">mở rộng</string>
+    <string name="notify_string_notify">thông báo</string>
+    <string name="notify_string_content">Đây là nội dung thông báo</string>
+    <string name="notify_dialog_string_yes">đồng ý</string>
+    <string name="item_store_pack_string_buy">mua</string>
+    <string name="item_store_pack_string_coins">xu</string>
+    <string name="notify_string_no">không</string>
+    <string name="setting_string_feedback_send">gửi</string>
+    <string name="setting_string_feedback">phản hồi</string>
+    <string name="setting_string_sfx_sound_on">mở</string>
+    <string name="setting_string_sfx_sound">âm thanh sfx</string>
+    <string name="setting_string_bg_sound_on">mở</string>
+    <string name="setting_string_bg_sound">âm thanh bg</string>
+    <string name="setting_string_language_en">vn</string>
+    <string name="setting_string_language">ngôn ngữ</string>
+    <string name="setting_string_setting">thiết lập</string>
+    <string name="setting_string_quit_game">Thoát Game</string>
+
+</resources>

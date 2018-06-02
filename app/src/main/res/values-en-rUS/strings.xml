@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="top_screen_string_top">TOP</string>
+    <string name="top_screen_string_back">Back</string>
+    <string name="top_screen_string_global">Global</string>
+    <string name="top_screen_string_friend">Friend</string>
+    <string name="top_screen_string_reward">Reward</string>
+    <string name="store_screen_string_title">STORE</string>
+    <string name="store_screen_string_back">Back</string>
+    <string name="store_screen_string_store">Store</string>
+    <string name="store_screen_string_items">Items</string>
+    <string name="store_screen_string_free">Free</string>
+    <string name="notify_string_notify">notify</string>
+    <string name="notify_string_content">This is the content of notification</string>
+    <string name="notify_string_no">no</string>
+    <string name="notify_dialog_string_yes">yes</string>
+    <string name="setting_string_setting">setting</string>
+    <string name="setting_string_language">language</string>
+    <string name="setting_string_language_en">en</string>
+    <string name="setting_string_bg_sound">bg sound</string>
+    <string name="setting_string_bg_sound_on">on</string>
+    <string name="setting_string_sfx_sound">sfx sound</string>
+    <string name="setting_string_sfx_sound_on">on</string>
+    <string name="setting_string_feedback">feedback</string>
+    <string name="setting_string_feedback_send">send</string>
+    <string name="setting_string_quit_game">quit game</string>
+    <string name="item_store_pack_string_buy">buy</string>
+    <string name="item_store_pack_string_coins">coins</string>
+
+
+    <!--main-->
+    <string name="main_content">This is a multi-language application</string>
+    <string name="main_news">Google is adding Kotlin as an official programming language for Android development</string>
+    <string name="main_button_change_language">Change Language</string>
+
+    <!--change language-->
+    <string name="change_language_title">Language</string>
+
+    <!--untranslatable-->
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_japanese" translatable="false">日本の</string>
+    <string name="language_vietnamese" translatable="false">Tiếng Việt</string>
+
+    <string-array name="language_names">
+        <item>@string/language_english</item>
+        <item>@string/language_japanese</item>
+        <item>@string/language_vietnamese</item>
+    </string-array>
+
+    <string name="language_english_code" translatable="false">en</string>
+    <string name="language_japanese_code" translatable="false">ja</string>
+    <string name="language_vietnamese_code" translatable="false">vi</string>
+
+    <string-array name="language_codes">
+        <item>@string/language_english_code</item>
+        <item>@string/language_japanese_code</item>
+        <item>@string/language_vietnamese_code</item>
+    </string-array>
+</resources>
